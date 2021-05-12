@@ -16,10 +16,10 @@ const App = () => {
       <Map
         googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAs8fpy0-fFeKFlWa45S8g5_gxLgGhtpKo"
         loadingElement={<div style={{ height: `100%` }} />}
-        containerElement={<div style={{ height: `400px` }} />}
+        containerElement={<div style={{ height: `600px` }} />}
         mapElement={<div style={{ height: `100%` }} />}
         center={{ lat: -29.995301, lng: -51.174217 }}
-        zoom={4}
+        zoom={8}
         places={places}
       />
     </div>

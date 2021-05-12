@@ -30,10 +30,6 @@ const Map = ({ places, zoom, center }) => {
   )
 }
 
-const getRandomInRange = (from, to, fixed) => {
-  return (Math.random() * (to - from) + from).toFixed(fixed) * 1
-}
-
 class MapWithMarker extends React.Component {
   constructor(props) {
     super(props)
